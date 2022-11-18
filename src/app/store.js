@@ -1,4 +1,3 @@
-//Definir los métodos para poder ALMACENAR y obtener los datos del LocalStorage.
 export class Store {
 
     constructor() {

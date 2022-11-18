@@ -1,4 +1,5 @@
 export class Weather {
+
     constructor(ciudad, codigoPais) {
         this.apikey = 'c5e4c169256342ba57b2b885e46bfebc';
         this.ciudad = ciudad;
@@ -13,7 +14,6 @@ export class Weather {
         return data;       
     }
 
-    //Escucha al cambiar las propiedades.
     changeLocation(ciudad, codigoPais) {
         this.ciudad = ciudad;
         this.codigoPais = codigoPais;
