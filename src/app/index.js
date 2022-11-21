@@ -1,4 +1,4 @@
-require('../styles/main.scss');
+require('../styles/main.css');
 const { Weather } = require('./Weather')
 const { UI } = require('./UI')
 const { Store } = require('./store');
