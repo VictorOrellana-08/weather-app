@@ -8,7 +8,14 @@
     <title>App - Clima</title>
 </head>
 <body>
-    <div id="root" class="container p-3">
+    <nav class="navbar bg-dark text-light">
+        <div class="container-fluid">
+            <div class="mx-auto">
+                APLICACIÓN METOROLÓGICA
+            </div>
+        </div>
+    </nav>
+    <div class="container p-3">
         <div class="row">
             <div class="col-md-4 mx-auto text-center">
                 <!-- Mostrar Información -->
@@ -31,7 +38,8 @@
                                 <input type="text" id="ciudad" class="form-control" placeholder="País" autofocus>
                             </div>
                             <div class="form-group">
-                                <input type="text" id="codigoPais" class="form-control" placeholder="Código o Siglas en inglés">
+                                <input type="text" id="codigoPais" class="form-control"
+                                    placeholder="Código o Siglas en inglés">
                             </div>
                             <div class="btn-group">
                                 <button type="submit" id="w-change-btn" class="btn btn-outline-dark btn-block">Guardar Cambio</button>
